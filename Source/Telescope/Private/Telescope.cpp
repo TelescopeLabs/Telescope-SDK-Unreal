@@ -25,7 +25,7 @@ TSharedPtr<IAnalyticsProvider> FAnalyticsTelescope::CreateAnalyticsProvider(cons
 {
     if (GetConfigValue.IsBound())
     {
-        const FString Key = GetConfigValue.Execute(TEXT("TDApiKey"), true);
+        const FString Key = GetConfigValue.Execute(TEXT("TelescopeApiKey"), true);
     }
 
 }
